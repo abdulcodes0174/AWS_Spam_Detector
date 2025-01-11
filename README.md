@@ -1,6 +1,6 @@
 # SPAM Detector App
 
-The **Spam Detector** is a web application built with Python and Streamlit. It classifies email and SMS messages as **Spam** or **Not Spam** using a machine learning model. The application leverages the **NLTK library** for natural language processing and a pre-trained **Multinomial Naive Bayes model** for classification.
+The **Spam Detector** is a web application built with Python and Streamlit. It classifies email and SMS messages as **Spam** or **Not Spam** using a machine learning model. The application leverages the **NLTK library** for natural language processing and a pre-trained **Multinomial Naive Bayes model** for classification. The dataset I used to train the model can be found here: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
 ## Features
 - Preprocesses user input text (removes stopwords, punctuation, and performs stemming).
@@ -29,8 +29,21 @@ Follow these steps to set up and run the project on your local machine or AWS EC
 - Access to the NLTK data required by the app (`punkt` tokenizer).
 
 ### Step 1: Clone the Repository
-```bash
-git clone https://github.com/your-username/Spam_Detector.git
-cd AWS_Spam_Detector
 
-### Step 1: Clone the Repository
+git clone https://github.com/abdulcodes0174/Spam_Detector_Web_App.git
+cd Spam_Detector_Web_App```
+
+### Step 2:
+pip install streamlit nltk sklearn
+
+### Step 3:
+
+python3
+>>> import nltk
+>>> nltk.download('punkt')
+>>> exit()
+
+### Step 4:
+
+streamlit run app.py
+
