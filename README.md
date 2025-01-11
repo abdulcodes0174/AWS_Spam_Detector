@@ -2,6 +2,12 @@
 
 The **Spam Detector** is a web application built with Python and Streamlit. 
 
+![Spam Detector Screenshot](IMAGES/spam_image.png)
+![Spam Detector Screenshot](IMAGES/not_spam_image.png)
+
+
+
+
 ## Features
 It classifies email and SMS messages as **Spam** or **Not Spam** using a machine learning model. The application leverages the **NLTK library** for natural language processing and a pre-trained **Multinomial Naive Bayes model** for classification. The dataset used to train the model can be found here: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
